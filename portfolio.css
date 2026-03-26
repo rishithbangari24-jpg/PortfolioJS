@@ -1,0 +1,314 @@
+body{
+    font-family: 'DM Sans', sans-serif;
+    background-color:#0b0b0f; 
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+body.light{
+    background-color: white;
+    color: black;
+    font-family: 'DM Sans', sans-serif;
+}
+.aboutContent p{
+    color: white;
+}
+
+.headerText{
+    margin: 20px 20px 20px 60px;
+    font-size: 15px; 
+    color: white;
+}
+.headSection {
+  position: fixed;
+  background-color: #0b0b0f;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
+  display: flex;
+  justify-content: space-between;
+  padding: 12px 40px;
+}
+hr {
+  position: relative;
+  top: 64px; 
+  border: none;
+  height: 1px;
+  background: #444;
+}
+main {
+  padding-top: 80px;
+}
+.headerNav a{
+    text-decoration: none;
+    color: white;
+    margin: 0 30px;
+}
+.navsection{
+    margin-top: 20px;
+}
+.modeButton button{
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-size: 14px;
+    
+}
+.modeButton{
+    margin: 12px 50px 15px 0px;
+}
+.homeHead h1{
+    font-size: 150px;
+    margin-right: 200px;
+}
+.homeHead{
+    margin-top: -90px;
+}
+.homePara p{
+    margin-top: -90px;
+    font-size: 20px;
+    color:#7a7a99;
+}
+.dev{
+    color: #00d4aa;
+}
+.headSection{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+    background-color: #0b0b0f;
+    padding: 15px 40px;
+}
+
+hr {
+    border: none;
+    height: 1px;
+    background-color: #444;
+    margin: 0;
+}
+
+main {
+    margin-top: 100px;
+    padding: 0 40px 40px;
+}
+
+.aboutSection {
+    margin-top: 40px;
+    background: #12121a;
+    border-radius: 8px;
+    padding: 18px;
+}
+
+.aboutSection h2 {
+    margin-bottom: 8px;
+}
+
+.skills {
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(220px, 1fr));
+    gap: 16px;
+}
+
+.skills h1 {
+    grid-column: 1 / -1;
+    margin-bottom: 20px;
+    color: #00d4aa;
+}
+
+.skills > div {
+    background: #14142b;
+    border: 1px solid #2a2a42;
+    border-radius: 8px;
+    padding: 18px;
+    min-height: 170px;
+}
+
+.skills h2,
+.skills h4 {
+    margin: 0;
+}
+
+.skills h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.skills h4 {
+    margin: 8px 0;
+    color: #c7c7d0;
+    font-weight: 500;
+}
+
+@media (max-width: 860px) {
+    .skills {
+        grid-template-columns: 1fr;
+    }
+    .skills h1 {
+        text-align: left;
+    }
+}
+
+.homeSection{
+    margin-left: 40px;
+}
+.homeBtn button{
+   border-radius: 40px;
+   padding: 20px 25px;
+   background-color: transparent;
+   color: white;
+   border: 1px solid;
+   margin: 10px;
+   cursor: pointer;
+}
+.homeBtn button:hover{
+    color: #00d4aa;
+    border: 1px solid #00d4aa;
+}
+.aboutSection{
+    background-color:rgb(27, 27, 27); ;
+    margin: 8rem 0px 8rem 0px;
+    padding: 55px 50rem 55px 0;
+}
+.aboutContent p{
+    margin: 20px;
+}
+.aboutHeading h1{
+    margin-left: 20px;
+    color: #00d4aa;
+}
+.divAbout{
+    margin-left: 30px;
+}
+
+.projects {
+    margin-top: 90px;
+    
+}
+
+.projects h2 {
+    margin-bottom: 18px;
+    color: #00d4aa;
+}
+
+.projectsGrid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(220px, 1fr));
+    gap: 16px;
+}
+
+@media (max-width: 760px) {
+    .projectsGrid {
+        grid-template-columns: 1fr;
+    }
+}
+
+.projectCard {
+    background: #14142b;
+    border: 1px solid #2a2a42;
+    border-radius: 8px;
+    padding: 16px;
+    min-height: 190px;
+}
+
+.projectCard h3 {
+    margin-top: 0;
+    color: #ffffff;
+}
+
+.projectCard p {
+    color: #c7c7d0;
+    font-size: 14px;
+    line-height: 1.4;
+    margin-bottom: 12px;
+}
+
+.projectBtn {
+    display: inline-block;
+    background-color: #00d4aa;
+    color: #0b0b0f;
+    padding: 8px 12px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.projectBtn:hover {
+    background-color: #00a68f;
+}
+
+.contact {
+    margin-top: 40px;
+    background: #14142b;
+    border: 1px solid #2a2a42;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.contact h2 {
+    color: #00d4aa;
+    margin-bottom: 10px;
+}
+
+.contact p {
+    color: #c7c7d0;
+    margin: 8px 0;
+}
+
+.contactDetails {
+    margin: 15px 0;
+    color: #ffffff;
+}
+
+.contactCard {
+    background: #0f0f1a;
+    border: 1px solid #2a2a42;
+    border-radius: 8px;
+    padding: 33px;
+}
+
+.contactForm {
+    display: grid;
+    gap: 10px;
+}
+
+.contactForm label {
+    font-size: 14px;
+    margin-bottom: 4px;
+}
+
+.contactForm input,
+.contactForm textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #2a2a42;
+    border-radius: 6px;
+    background: #12122b;
+    color: #fff;
+}
+
+.contactForm input::placeholder,
+.contactForm textarea::placeholder {
+    color: #8a8aa4;
+}
+
+.contactForm button {
+    border: none;
+    border-radius: 6px;
+    padding: 10px 14px;
+    background: #00d4aa;
+    color: #0b0b0f;
+    cursor: pointer;
+    margin-top: 6px;
+    font-weight: 700;
+}
+
+.contactForm button:hover {
+    background: #00a88f;
+}
