@@ -1,5 +1,6 @@
 const sectionEl = document.createElement("section");
 sectionEl.className = "contact";
+sectionEl.id = "contact";
 const main = document.querySelector('main');
 main.appendChild(sectionEl);
 const h2el1 = document.createElement("h2");
